@@ -1,6 +1,6 @@
 // ===== ITEMS =====
 const items = [
-  { id: "blink_dagger", name: "Blink Dagger", image: "images/Blink Dagger.png", category: "Mobility", type: "Mobility", description: "Short-distance teleport for instant positioning.", price: 2250, action: "buy", stock: 5 },
+  { id: "blink_dagger", name: "Blink Dagger", image: "Blink Dagger.png", category: "Mobility", type: "Mobility", description: "Short-distance teleport for instant positioning.", price: 2250, action: "buy", stock: 5 },
   { id: "bkb", name: "Black King Bar", image: "BlackKingbar.png", category: "Strength", type: "Core / Defensive", description: "Spell immunity for initiating and team fights.", price: 4050, action: "sell", stock: 3 },
   { id: "shadow_blade", name: "Shadow Blade", image: "Shadowblade.png", category: "Agility", type: "Initiation / Damage", description: "Temporary invisibility and bonus damage on hit.", price: 3000, action: "sell", stock: 4 },
   { id: "force_staff", name: "Force Staff", image: "Forcestaff.png", category: "Mobility", type: "Support / Mobility", description: "Push units in the direction they are facing.", price: 2200, action: "buy", stock: 6 },
@@ -52,7 +52,7 @@ function renderItems(list) {
     <tr>
       <td>
         <div class="item-cell">
-          <img src=.."images/${item.image}" class="item-icon" alt="${item.name}">
+          <img src="images/${item.image}" class="item-icon" alt="${item.name}">
           <span class="item-name">${item.name}</span>
         </div>
       </td>
@@ -286,4 +286,5 @@ filterAndRender();
 renderBackpack();
 renderInventory();
 renderWallet();
+
 
