@@ -2,7 +2,7 @@
 const items = [
   { id: "blink_dagger", name: "Blink Dagger", image: "Blink Dagger.png", category: "Mobility", type: "Mobility", description: "Short-distance teleport for instant positioning.", price: 2250, action: "buy", stock: 5 },
   { id: "bkb", name: "Black King Bar", image: "BlackKingbar.png", category: "Strength", type: "Core / Defensive", description: "Spell immunity for initiating and team fights.", price: 4050, action: "sell", stock: 3 },
-  { id: "shadow_blade", name: "Shadow Blade", image: "Shadowblade.png", category: "Agility", type: "Initiation / Damage", description: "Temporary invisibility and bonus damage on hit.", price: 3000, action: "sell", stock: 4 },
+  { id: "shadow_blade", name: "Shadow Blade", image: "images/Shadowblade.png", category: "Agility", type: "Initiation / Damage", description: "Temporary invisibility and bonus damage on hit.", price: 3000, action: "sell", stock: 4 },
   { id: "force_staff", name: "Force Staff", image: "Forcestaff.png", category: "Mobility", type: "Support / Mobility", description: "Push units in the direction they are facing.", price: 2200, action: "buy", stock: 6 },
   { id: "mekansm", name: "Mekansm", image: "Mekanesm.png", category: "Intelligence", type: "Support", description: "Team heal and armor aura.", price: 1775, action: "sell", stock: 5 },
   { id: "ac", name: "Assault Cuirass", image: "Assault.png", category: "Strength", type: "Armor / Attack Speed", description: "Armor aura and attack speed for your team.", price: 5125, action: "buy", stock: 2 },
@@ -286,5 +286,6 @@ filterAndRender();
 renderBackpack();
 renderInventory();
 renderWallet();
+
 
 
