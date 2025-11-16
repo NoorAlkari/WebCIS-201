@@ -5,7 +5,7 @@ const items = [
   { id: "shadow_blade", name: "Shadow Blade", image: "Shadowblade.png", category: "Agility", type: "Initiation / Damage", description: "Temporary invisibility and bonus damage on hit.", price: 3000, action: "sell", stock: 4 },
   { id: "force_staff", name: "Force Staff", image: "Forcestaff.png", category: "Mobility", type: "Support / Mobility", description: "Push units in the direction they are facing.", price: 2200, action: "buy", stock: 6 },
   { id: "mekansm", name: "Mekansm", image: "Mekanesm.png", category: "Intelligence", type: "Support", description: "Team heal and armor aura.", price: 1775, action: "sell", stock: 5 },
-  { id: "ac", name: "Assault Cuirass", image: "Assault.png", category: "Strength", type: "Armor / Attack Speed", description: "Armor aura and attack speed for your team.", price: 5125, action: "buy", stock: 2 },
+  { id: "ac", name: "Assault Cuirass", image: "../images/Assault.png", category: "Strength", type: "Armor / Attack Speed", description: "Armor aura and attack speed for your team.", price: 5125, action: "buy", stock: 2 },
   { id: "aghanims", name: "Aghanim's Scepter", image: "aghs.png", category: "Intelligence", type: "Core / Upgrade", description: "Upgrades your ultimate or grants a new ability.", price: 4200, action: "sell", stock: 4 },
   { id: "glimmer_cape", name: "Glimmer Cape", image: "Glimmercape.png", category: "Intelligence", type: "Support / Utility", description: "Invisibility and magic resistance buff.", price: 1950, action: "buy", stock: 7 },
   { id: "heart", name: "Heart of Tarrasque", image: "heart.png", category: "Strength", type: "Tank / Core", description: "Huge HP and regen for frontliners.", price: 5200, action: "sell", stock: 1 },
@@ -287,6 +287,7 @@ filterAndRender();
 renderBackpack();
 renderInventory();
 renderWallet();
+
 
 
 
